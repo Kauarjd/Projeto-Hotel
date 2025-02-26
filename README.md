@@ -27,6 +27,7 @@ classDiagram
         +Long id
         +LocalDate checkInDate
         +LocalDate checkOutDate
+        +Payment method 
     }
 
     Hotel "1" -- "*" Room
